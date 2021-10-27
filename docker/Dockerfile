@@ -1,5 +1,4 @@
-#FROM google/deepvariant:test-20201228-mod-gpu
-FROM ubuntu:20.04
+FROM python:latest
 MAINTAINER Kishwar Shafin, kishwar.shafin@gmail.com
 
 RUN python3 --version
